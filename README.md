@@ -15,3 +15,7 @@ git-test
         }
     }
 ```
+
+```bash
+java -jar spring-zipkin-example-1.5.9.RELEASE.jar --server.port=8888 --spring.application.name=zipkin-test-front --spring.zipkin.baseUrl=http://127.0.0.1:9411/ --backend.url=http://127.0.0.1:8889
+```
